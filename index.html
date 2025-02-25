@@ -17,16 +17,15 @@
 </head>
 
 <body>
-  <div class="main-container">
-    <div class="qr-code-container">
-      <img src="./images/image-qr-code.png" alt="qr-code">
-    </div>
-    <div class="text-container">
-      <div class="text-bold">Improve your front-end skills by building projects</div>
-      <div class="text-light">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-      </div>
-    </div>
-  </div>
+  <main class="main-container" role="main">
+    <section class="qr-code-container" role="img" aria-label="QR code leading to Frontend Mentor">
+      <img src="./images/image-qr-code.png" alt="QR code to visit Frontend Mentor">
+    </section>
+    <section class="text-container" role="region" aria-labelledby="qr-heading">
+      <h1 id="qr-heading" class="text-bold">Improve your front-end skills by building projects</h1>
+      <p class="text-light">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</p>
+    </section>
+  </main>
 </body>
 
 </html>
